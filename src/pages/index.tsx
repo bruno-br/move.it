@@ -13,7 +13,7 @@ export default function Home() {
             <ExperienceBar />
 
             <Head>
-                <title>Início move.it</title>
+                <title>Início | move.it</title>
             </Head>
 
             <section>
