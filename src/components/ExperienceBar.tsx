@@ -1,6 +1,6 @@
 import styles from "../styles/components/ExperienceBar.module.css";
 
-function ExperienceBar() {
+export default function ExperienceBar() {
     return (
         <header className={styles.experienceBar}>
             <span>0 xp</span>
@@ -17,5 +17,3 @@ function ExperienceBar() {
         </header>
     );
 }
-
-export default ExperienceBar;
