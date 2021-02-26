@@ -43,6 +43,7 @@ export function CountdownProvider({ children }: CountdownProvider) {
     function resetCountdown() {
         clearTimeout(countdownTimeout);
         setIsActive(false);
+        setHasFinished(false);
         setTime(startingTime);
     }
 
