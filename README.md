@@ -1,6 +1,6 @@
 # Move.it
 
-Move.it é uma aplicação que une a Técnica Pomodoro com gameficação para ajudar pessoas que utilizam muito o computador a manter o foco e a saúde física e mental.
+Move.it é uma aplicação que une a Técnica Pomodoro com gameficação para ajudar pessoas que utilizam muito o computador a manter o foco e a saúde física e mental. Você pode acessar a aplicação [clicando aqui](https://moveit-bruno-br.vercel.app/)
 
 ## Sobre
 
@@ -20,11 +20,11 @@ No Move.it, os ciclos duram 25 minutos. Ao chegar no final de um ciclo, o usuár
 
 ## Preview
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 5px">
-<img src=".github/preview1.jpg">
-<img src=".github/preview2.jpg">
-<img src=".github/preview3.jpg">
-<img src=".github/preview4.jpg">
+<p align="middle">
+  <img src=".github/preview1.JPG" width="40%">
+  <img src=".github/preview2.JPG" width="40%">
+  <img src=".github/preview3.JPG" width="40%">
+  <img src=".github/preview4.JPG" width="40%">
 </div>
 
 ## Como Executar Localmente
