@@ -1,8 +1,5 @@
 import { useContext } from "react";
-import {
-    ChallengesContext,
-    ChallengesProvider
-} from "../contexts/ChallengesContext";
+import { ChallengesContext } from "../contexts/ChallengesContext";
 import styles from "../styles/components/Profile.module.css";
 
 export default function Profile() {
