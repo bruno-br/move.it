@@ -11,6 +11,7 @@ import { CountdownProvider } from "../contexts/CountdownContext";
 import { ChallengesProvider } from "../contexts/ChallengesContext";
 
 import styles from "../styles/pages/Home.module.css";
+import SwitchTheme from "../components/SwitchTheme";
 
 interface HomeProps {
     level: number;
@@ -25,6 +26,7 @@ export default function Home(props: HomeProps) {
             currentExperience={props.currentExperience}
             challengesCompleted={props.challengesCompleted}
         >
+            <SwitchTheme />
             <div className={styles.container}>
                 <ExperienceBar />
 
