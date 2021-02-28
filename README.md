@@ -1,6 +1,6 @@
 # Move.it
 
-Move.it é uma aplicação que une a Técnica Pomodoro com gameficação para ajudar pessoas que utilizam muito o computador a manter o foco e a saúde física e mental. Você pode acessar a aplicação [clicando aqui](https://moveit-bruno-br.vercel.app/)
+Move.it é uma aplicação que une a Técnica Pomodoro com gameficação para ajudar pessoas que utilizam muito o computador a manter o foco e a saúde física e mental. Você pode acessar a aplicação [clicando aqui](moveit-jet-eta.vercel.app)
 
 ## Sobre
 
