@@ -12,6 +12,7 @@ interface Challenge {
 interface ChallengeContextData {
     level: number;
     currentExperience: number;
+    maxExperienceOfPreviousLevel: number;
     experienceToNextLevel: number;
     challengesCompleted: number;
     activeChallenge: Challenge;
@@ -45,6 +46,9 @@ export function ChallengesProvider({
 
     const [activeChallenge, setActiveChallenge] = useState(null);
     const [isLevelUpModalOpen, setIsLevelUpModalOpen] = useState(false);
+
+    const maxExperienceOfPreviousLevel =
+        level === 1 ? 0 : Math.pow(level * 4, 2);
 
     const experienceToNextLevel = Math.pow((level + 1) * 4, 2);
 
@@ -109,6 +113,7 @@ export function ChallengesProvider({
             value={{
                 level,
                 currentExperience,
+                maxExperienceOfPreviousLevel,
                 experienceToNextLevel,
                 challengesCompleted,
                 activeChallenge,
