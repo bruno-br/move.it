@@ -28,7 +28,9 @@ export default function Home(props: HomeProps) {
         >
             <SwitchTheme />
             <div className={styles.container}>
-                <ExperienceBar />
+                <header>
+                    <ExperienceBar />
+                </header>
 
                 <Head>
                     <title>Início | move.it</title>
